@@ -1,1 +1,1 @@
-aluno.pop();
+o = ["Bruno", "Carlos", "Fernando"];
