@@ -1,0 +1,36 @@
+.corTextoProdutos {
+  color: rgb(54, 119, 45);
+}
+
+.paragrafoFundoVermelho-Borda-Esquerda {
+  color: rgb(118, 20, 20);
+}
+
+.backgroundH1 {
+  background: rgb(20, 0, 239); /*usando a CLASSE HTML no CSS*/
+}
+
+.backgroundH6 {
+  background: rgb(239, 0, 0); /*usando a CLASSE HTML no CSS*/
+}
+
+#h2 {
+  background: rgb(54, 119, 45); /*usando o ID HTML no CSS precisa da #*/
+}
+
+.boldCor {
+  color: blue;
+}
+
+.strongP {
+  color: rgb(189, 186, 39);
+}
+
+.imagem-exemplo {
+  width: 480px;
+  height: 480px;
+}
+#div_exemplo {
+  background-color: red;
+
+}
