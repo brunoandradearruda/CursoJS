@@ -1,5 +1,5 @@
 //Array         0        1         2
-const aluno = ["Bruno", "Carlos", "Fernando"];
+const aluno = ["Bruno", "Carlos", "Fernando", "Marcos", "João"];
 
 //aluno.push ('Otávio');  //Inserir elemento no final do Array.
 //aluno.unshift('Marcos');  // Inserir elemento (Marcos) no início do Array, "empurrando" Bruno para frente.
@@ -10,7 +10,7 @@ const aluno = ["Bruno", "Carlos", "Fernando"];
 
 
 
-console.log(aluno.slice(0, -2)); //Fatiamento do ARRAY, elimintando dos 2 utimos indices, ficando apenas BRUNO
+console.log(aluno.slice(0, -1)); //Fatiamento do ARRAY, elimintando dos 2 utimos indices, ficando apenas BRUNO
 console.log (aluno instanceof Array); //Saber se a instância se trata de um array.
 
 
