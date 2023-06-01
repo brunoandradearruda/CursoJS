@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <style>
+    label {
+      cursor: pointer;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="#" method="get" autocomplete="off">
+    <p>O meu formulário</p>
+
+    <p>
+      <label for="nome">Nome:</label><input type="text" id="nome" name="nome" placeholder="Seu nome" />
+    </p>
+
+    <p>
+      <label for="dev">Sou um DEV1:</label><input type="checkbox" id="dev1" name="dev1 " value="sim" /><br />
+
+      <label for="dev">Sou um DEV2:</label><input type="checkbox" id="dev2" name="dev2 " value="sim" /><br />
+
+      <label for="dev">Sou um DEV3:</label><input type="checkbox" id="dev3" name="dev3 " value="sim" /><br />
+    </p>
+
+    <p>
+      Gênero:<br />
+      <label for="feminino">Feminino</label><input type="radio" id="Feminino" name="genero " value="feminino" /><br />
+
+      <label for="masculino">Masculino:</label><input type="radio" id="Masculino" name="genero "
+        value="masculino" /><br />
+    </p>
+
+    <p>
+      <label for="date">Data:</label><input type="datetime-local" id="date" name="date" value="2023-05-30" />
+    </p>
+
+    <p>
+      <label for="email">Email:</label><input type="email" id="email" name="email" placeholder="ex.: email@" required />
+    </p>
+
+    <p>
+      <label for="file">Sua foto:</label><input type="file" id="file" name="file" accept=".pdf, .png, image/*" />
+    </p>
+
+    <p>
+      <label for="number">Number:</label><input type="number" id="number" name="number" min="10" max="50" />
+    </p>
+
+    <p>
+      <label for="password">Senha</label><input type="password" id="password" name="password"
+        placeholder="digite sua senha" />
+    </p>
+
+    <p>
+      <label for="search">Procurar</label><input type="search" id="search" name="search" placeholder="Pesquisar" />
+    </p>
+
+    <p>
+      <label for="select">Selecione</label>
+      <select id="select" name="select">
+        <option value="qualquer1" label="Valor1" disabled></option>
+        <option value="qualquer2" label="Valor2"></option>
+        <option value="qualquer3" label="Valor3"></option>
+        <option value="qualquer4" label="Valor4"></option>
+      </select>
+    </p>
+
+    <p>
+      <label for="textarea">Selecione</label>
+      <textarea name="textarea" id="textarea" rows="3" cols="4"></textarea>
+
+    </p>
+
+    <!--O name é o nome do INPUT-->
+    <p>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </p>
+    <p></p>
+  </form>
+</body>
+
+</html>
