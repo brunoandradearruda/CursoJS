@@ -1,0 +1,211 @@
+html {
+  scroll-behavior: smooth;
+}
+.caixa {
+  background-color: blueviolet;
+  width: 120px;
+  height: 120px;
+}
+
+p {
+  color: rgb(19, 16, 194);
+}
+
+body div section h2 {
+  color: brown;
+}
+
+.h2 {
+  color: black;
+}
+
+div {
+  color: initial;
+}
+
+.pai .filha {
+  color: rgb(255, 77, 0);
+}
+
+.pai h1 + p {
+  color: red;
+}
+
+.pai p + h1 {
+  color: rgb(24, 130, 96);
+}
+
+.cabelhoTabela:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.link:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+/* .pai h1 ~ p{ O ~(tio) seleciona todos os P's seguintes
+  color: red;
+}*/
+
+p,
+h1 {
+  font-size: 25px;
+}
+
+* {
+  /*  O *seleciona todos os elementos da página*/
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}
+
+.corTextoProdutos {
+  color: rgb(54, 119, 45);
+}
+
+.paragrafoFundoVermelho-Borda-Esquerda {
+  color: rgb(118, 20, 20);
+}
+
+.backgroundH1 {
+  background: rgb(20, 0, 239); /*usando a CLASSE HTML no CSS*/
+}
+
+.backgroundH6 {
+  background: rgb(239, 0, 0); /*usando a CLASSE HTML no CSS*/
+}
+
+#h2 {
+  background: rgb(54, 119, 45); /*usando o ID HTML no CSS precisa da #*/
+}
+
+.boldCor {
+  color: blue;
+}
+
+.strongP {
+  color: rgb(189, 186, 39);
+}
+
+.imagem-exemplo {
+  width: 480px;
+  height: 480px;
+}
+#div_exemplo {
+  background-color: red;
+}
+
+ul li:nth-child(even) {
+  background-color: rgb(241, 32, 0);
+}
+
+ul li:nth-child(odd) {
+  background-color: rgb(221, 255, 0);
+}
+
+.ul-child li:nth-child(even) {
+  background-color: rgb(0, 35, 210);
+}
+
+.ul-pseudo-elements li::after {
+  content: "----";
+}
+
+.ul-pseudo-elements li::before {
+  content: "----";
+}
+
+.p-pseudo-elements::first-letter {
+  color: rgb(0, 99, 28);
+}
+
+.p-pseudo-elements {
+  color: black;
+}
+
+.p-pseudo-elements::first-line {
+  background-color: brown;
+}
+
+.p-pseudo-elements::selection {
+  background-color: brown;
+}
+
+.texto {
+  box-sizing: border-box; /*Obedece as dimensões inseridas na proprieda. Usalmente se utiliza essa prorpiedade nos projetos*/
+  box-sizing: padding-box; /*O padding passa a ser acrescentado para dentro */
+  box-sizing: content-box; /*border, paddin e margem serão somadas ao conteúdo. Esse content box cresce para fora a sua classe*/
+  display: block; /*Informação redundante, pois a DIV já é display Block*/
+  /*As propriedades width e height não funcionan em propriedades In-line*/
+  background: red;
+  /*width: 100%;*/
+  /* height: 100%;*/
+  /*margin: 0 auto ; /*Div se ajusta ao MEIO da tela*/
+  overflow-y: scroll; /*Mostra scroll no eixo vertical (Y)*/
+  overflow-x: scroll; /*Mostra scroll no eixo horizontal (X)*/
+  overflow: auto; /*Barra scroll aparecer automaticamento quando o conteúdo da div passar dos limites*/
+  overflow: hidden; /*Esconde o Scroll (barra de rolagem)*/
+  margin: 0 /*CIMA*/ 200px /*LATERAL DIREIRA*/ 50px /*BAIXO*/ auto
+    /*LATERAL ESQUERDA*/;
+  padding: 10px 5px 15px 1px;
+  border: 5px solid black;
+}
+
+.grid .col {
+  width: 300px;
+  height: 300px;
+  float: left;
+  background: red;
+  margin: 20px; /*DIV  --margin: 0 auto-- ajustada centralizada ao meio da página*/
+}
+
+.Color0 {
+  background-color: black;
+  color: white;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  margin: 15px 15px 15px 15px;
+  height: 100vw;
+}
+
+.Color1 {
+  background-color: blue;
+  color: yellow;
+  font-family: "Times New Roman", Times, serif;
+  margin: 15px 15px 15px 15px;
+  height: 100vw;
+}
+
+.Color2 {
+  background-color: rgb(24, 61, 3);
+  color: yellow;
+  font-family: "Times New Roman", Times, serif;
+  margin: 15px 15px 15px 15px;
+  height: 100vw;
+}
+
+.TextoLorem {
+  /*font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+  color: brown;
+  direction: ltr;
+  letter-spacing:1px ;
+  word-spacing: 1px;
+  line-height: 10px;
+  text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;*/
+  text-align: left; /*left, center, right*/
+  text-indent: 50px; /*paragrafo*/
+  text-shadow: 2px 2px 1px rgb(215, 200, 200);
+  text-transform: lowercase; /*texto minucsculo*/
+  text-transform: uppercase; /*texto maisculo*/
+  text-transform: capitalize; /*primiera letra maisculo*/
+}
