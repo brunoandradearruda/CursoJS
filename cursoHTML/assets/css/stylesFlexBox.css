@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /*min-height: 100vh; /*VIEWPORT min 100vh*/
+  /*justify-content ALINHA NA HORIZONTAL*/
+  /*align-items ALINHA NA VERTICAL/EIX0 SECUNDÁRIO*/
+
+  max-width: 600px;
+  margin: 0 auto;
+  height: 500px;
+  border: 1px solid #000;
+  justify-content: center; /*Alinha no CENTRO*/
+  justify-content: flex-start; /*Manda os elementos para o início do ROW/COLUM*/
+  justify-content: flex-end; /*/*Manda os elementos para o final do ROW/COLUM*/
+  justify-content: space-between; /*Distribui os elementos com espaços iguais entre eles*/
+  justify-content: space-around; /*Distribui os elementos com espaços iguais entre eles, mas não gruda*/
+  justify-content: center;
+  align-items: center;/*Alinha o eixo secundário*/
+  align-items: baseline; /*Alinha o item no topa - Linha Base do elemento*/
+  align-items: stretch; /*Estica os elementos para ocupar toda a área*/
+  align-items: center;
+  align-content: center; /*Assim como o aling-iten, este também funciona no eixo secudário*/
+
+
+.item {
+  margin: 5px;
+  padding: 5px;
+  background: #447;
+  text-align: center;
+  font-size: 1em;
+  color: #ffffff;
+  height: 30px;
+  width: 33.3333%;
+  /*width:calc (33.3333%-10px);*/
+}
+
+/*------------------------------*/
+
+.flexivel {
+  display: flex;
+}
+
+/*--Display Flex Row (Horizontal e Reverse)--*/
+.flex-direction-horizontal {
+  flex-direction: row;
+}
+
+.flex-direction-horizontal-reverse {
+  flex-direction: row-reverse;
+}
+/*--Display Flex Row (Horizontal e Reverse)--*/
+
+/*--Display Flex Colum (vertical e Reverse)--*/
+.flex-direction-vertical {
+  flex-direction: column;
+}
+
+.flex-direction-vertical-reverse {
+  flex-direction: column-reverse;
+}
+/*--Display Flex Colum (vertical e Reverse)--*/
+
+/*--Quebra de Linha FLEX--*/
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+/*--Quebra de Linha FLEX com reversão--*/
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/*--"Fusão" WRAP com ROW, COLUM--*/
+.flex-flow {
+  flex-flow: column wrap; /*WRAP está redundante, pois colum já por padrão quebra a linha*/
+}

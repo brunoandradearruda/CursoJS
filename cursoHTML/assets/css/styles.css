@@ -158,11 +158,15 @@ ul li:nth-child(odd) {
 }
 
 .grid .col {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   float: left;
   background: red;
   margin: 20px; /*DIV  --margin: 0 auto-- ajustada centralizada ao meio da página*/
+  /*border-top-left-radius: 150px;
+  border-radius: 10px 10px 10px 10px;
+  border-radius: 50%;*/
+  box-shadow: 10px 0 0px 0 blue;
 }
 
 .Color0 {
